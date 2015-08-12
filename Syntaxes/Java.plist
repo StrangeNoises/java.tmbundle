@@ -254,7 +254,7 @@
 		<key>anonymous-classes-and-new</key>
 		<dict>
 			<key>begin</key>
-			<string>\bnew\b</string>
+			<string>\b(?&lt;!::)new\b</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>0</key>
